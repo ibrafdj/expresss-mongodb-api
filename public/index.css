@@ -1,0 +1,45 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ccc99;
+    font-size: large;
+}
+
+h1{
+    color: #397F62;
+}
+
+h2{
+    color: #397F62;
+}
+
+.route-table{
+    color: #204636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.route-table table{
+    background-color: #86DEB7;
+    border-collapse: collapse;
+    font-weight: 600;
+
+}
+
+.route-table thead{
+    background-color: #397F62;
+    color: #86DEB7;
+    font-weight: bold;
+}
+
+.route-table td{
+    padding: 15px 20px 15px 20px;
+}
+

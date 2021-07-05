@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express MongoDB API</title>
+    <link rel="stylesheet" type="text/css" href="index.css">  
+</head>
+<body>
+    <div>
+        <h1>Express MongoDB API</h1>
+    </div>
+    <div>
+        <h2>Routes</h2>
+    </div>
+    <div class="route-table">
+        <table>
+            <thead>
+                <tr>
+                    <td>Routes</td>
+                    <td>HTTP Method</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>/user</td>
+                    <td>POST</td>
+                    <td>Create new user data</td>
+                </tr>
+                <tr>
+                    <td>/user</td>
+                    <td>GET</td>
+                    <td>Displays all user data</td>
+                </tr>
+                <tr>
+                    <td>/user</td>
+                    <td>DELETE</td>
+                    <td>Delete all user data</td>
+                </tr>
+                <tr>
+                    <td>/user/:id</td>
+                    <td>GET</td>
+                    <td>Display a specific user data</td>
+                </tr>
+                <tr>
+                    <td>/user/:id</td>
+                    <td>PATCH</td>
+                    <td>Update a specific user data</td>
+                </tr>
+                <tr>
+                    <td>/user/:id</td>
+                    <td>DELETE</td>
+                    <td>Delete a specific user data</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

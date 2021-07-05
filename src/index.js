@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 // Initialize middleware
 app.use(express.json());
 app.use(cors());
+app.use(express.static('public'));
 
 // Import routes
 const route = require('./routes/routes');
@@ -19,7 +20,7 @@ mongoose.connect("mongodb+srv://admin:admin@cluster0.o4tig.mongodb.net/user_db?r
 
 // Initialize home page
 app.get("/", (req,res) =>{
-    res.send("<h1>Express MongoDB API</h1>");
+    res.sendFile(process.cwd() + "/public/index.html");
 });
 
 // Initialize server to listen to port 3000
