@@ -90,3 +90,6 @@ http://localhost:3000/user/60e3bcb8d5f9a8002283f201
   "age": 24
 }
 ```
+
+## Remote API
+This API is available online hosted on Heroku at https://express-mongodb-api-test.herokuapp.com/
