@@ -3,7 +3,7 @@
 A REST API express server for CRUD operations in MongoDB. This application will accept HTTP requests to several routes and respond to those requests with either a Create, Read, Update, or Delete (CRUD) operation from the connected MongoDB database.
 
 ## How to install and run this application
-Make sure Node is installed in your system. Navigate to the express-mongodb-api folder and use terminal to run the following command to build the application:
+Make sure Node Package Manager (NPM) is installed in your system. Navigate to the express-mongodb-api folder and use terminal to run the following command to build the application:
 
 ```bash
 npm install
