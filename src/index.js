@@ -16,7 +16,9 @@ app.use('/user', route);
 // Connect to DB
 mongoose.connect("mongodb+srv://admin:admin@cluster0.o4tig.mongodb.net/user_db?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true },
                 ()=> console.log("Connected to MongoDB server!"));
-
+// Note: It is not reccommended to embed the full connection string (Containing the MongoDB user and password) in the source code like this
+//       because it presents a large security risk for the database. 
+//       However because this is only for testing purposes, I've decided to leave it as is.
 
 // Initialize home page
 app.get("/", (req,res) =>{

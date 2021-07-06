@@ -46,7 +46,7 @@ router.get('/:id', async (req, res) => {
 });
 
 // Update user data specified by ID
-router.patch('/:id', async (req, res) => {
+router.put('/:id', async (req, res) => {
     try{
         const id = req.params.id;
         const updateUser = req.body;
